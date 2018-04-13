@@ -292,9 +292,6 @@ namespace FreightCompany.Population
                 var result = shipperRepository.DropShipperTable();
                 Console.WriteLine("Shippers table was dropped:" + result + "rows where was removed");
 
-                //Console.WriteLine("Dropping table OrderProduct.");
-                //var resultOrderProducts = orderProductRepository.DropOrderProductTable();
-                //Console.WriteLine("OrderProduct table was dropped:" + resultOrderProducts + "rows where was removed");
             }
 
         }

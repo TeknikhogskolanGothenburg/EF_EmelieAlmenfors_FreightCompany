@@ -58,21 +58,6 @@ namespace FreightCompany.Repository
             context.SaveChanges();
         }
 
-
-        //public int DropOrderProductTable()
-        //{
-        //    var context = new DataBaseContext();
-        //    using (var connection = context.Database.GetDbConnection())
-        //    {
-        //        connection.Open();
-        //        using (var command = connection.CreateCommand())
-        //        {
-        //            command.CommandText = "DELETE FROM ORDERPRODUCT DBCC CHECKIDENT (OrderProduct, RESEED, 0)";
-        //            var result = command.ExecuteNonQuery();
-        //        }
-        //    }
-        //    return 0;
-        //}
     }
 }
 
